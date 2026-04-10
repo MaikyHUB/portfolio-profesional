@@ -1,0 +1,32 @@
+:root {
+    --Blue100: hsl(225, 100%, 94%);
+    --Blue700: hsl(245, 75%, 52%);
+    --Blue50: hsl(225, 100%, 98%);
+    --Gray600: hsl(224, 23%, 55%);
+    --Blue950: hsl(223, 47%, 23%);
+}
+
+body{
+    font-size: 16px;
+
+}
+
+.plan .annual span{
+    color: var(--Gray600);
+}
+.plan a {
+    color: var(--Blue700);
+    font-weight: 600;
+    margin-left: 4rem;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.boton .preced{
+    
+}

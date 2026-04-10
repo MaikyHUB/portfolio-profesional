@@ -1,0 +1,11 @@
+.Banner {
+    height: 100vh;
+    background-image: url('./img/gaming-pc-setup-4000-x-3000-wallpaper-4myatfm4a5ffydjl.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    color: white;
+}
+

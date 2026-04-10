@@ -1,0 +1,125 @@
+/* @import url(https://fonts.google.com/specimen/Red+Hat+Display); */
+:root {
+    --blue-100: hsl(225, 100%, 94%);
+    --blue-300: hsl(255, 74%, 90%);
+    --blue-700: hsl(245, 75%, 52%);
+    --blue-50: hsl(225, 100%, 98%);
+    --gray-600: hsl(224, 23%, 55%);
+    --blue-950: hsl(223, 47%, 23%);
+    --blanco: #fff;
+}
+
+html {
+    background-color: var(--blue-50);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 16px;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 24rem;
+    background-color: var(--blanco);
+    border-radius: 0 0 1rem 1rem;
+}
+
+/* Card img */
+
+.order-img img {
+    width: 24rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+/* Seccion order */
+
+.order h2{
+    text-align: center;
+    color: var(--blue-950);
+    margin-top: 2rem;
+}
+
+.order p {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    color: var(--gray-600);
+    max-width: 16rem;
+    font-weight: 500;
+}
+
+/* Seccion plan */
+.plan {
+    display: flex;
+    background-color: var(--blue-50);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.plan img {
+    margin-right: 1rem;
+}
+
+.plan-info p {
+    margin: 0;
+    font-weight: 700;
+    color: var(--blue-950);
+}
+
+.plan-info span {
+    color: var(--gray-600);
+    margin-top: .3rem;
+
+}
+.plan-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+.plan a {
+    color: var(--blue-700);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* Seccion botones */
+.botones {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 20rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.procced {
+    padding: 1rem 3.8rem;
+    background-color: var(--blue-700);
+    color: var(--blanco);
+    border: none;
+    border-radius: 1rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    box-shadow: 0px 11px 10px var(--blue-300);
+}
+
+.cancel {
+    background: none;
+    border: none;
+    color: var(--gray-600);
+    font-weight: 700;
+    font-size: 16px;
+}

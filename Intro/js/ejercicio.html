@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 id="titulo">Control de Salida del Instituto</h1>
+<h2 id="resultado"></h2>
+
+<p id="demo"></p>
+
+<script>
+    // 1. Declaramos las variables
+    const edad = 18; 
+    const nombre = "Juan";
+
+    // 2. Seleccionamos los elementos del HTML por su ID
+    const myPara = document.getElementById("demo");
+    const myTitulo = document.getElementById("titulo");
+    const myResultado = document.getElementById("resultado");
+
+    // 3. Lógica: Si es menor de 18 (17 o menos), no sale.
+    if (edad < 18) {
+        myResultado.innerHTML = nombre + ": NO PUEDES SALIR";
+        myResultado.style.color = "red"; // Un toque de estilo
+    } else {
+        myResultado.innerHTML = nombre + ": PUEDES SALIR";
+        myResultado.style.color = "green";
+    }
+
+    // 4. Cambiar el contenido de otro párrafo
+    myPara.innerHTML = "Estado del sistema: Verificado";
+</script>
+
+</body>
+</html>

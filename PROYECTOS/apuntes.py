@@ -2,7 +2,7 @@
 '''Este es un comentario de varias lineas. Las tres comillas son para el multilienas '''
 print("hola mundo")
 
-#una variable sonelemenos que contienen datos
+#una variable son elemenos que contienen datos 
 
 #--------------------------------------------------------------#
 
@@ -14,6 +14,10 @@ Colecciones mutables: list (listas), dict (diccionarios) y set (conjuntos).
 Otros tipos: NoneType (ausencia de valor), range (rangos), bytes, bytearray y memoryview
 
 
+# Definición de variables
+a = 10
+b = 3
+
 # Suma
 suma = a + b
 print(f"Suma: {a} + {b} = {suma}")
@@ -22,21 +26,21 @@ print(f"Suma: {a} + {b} = {suma}")
 resta = a - b
 print(f"Resta: {a} - {b} = {resta}")
 
-# producto
+# Producto
 producto = a * b
-print(f"producto: {a} * {b} = {multiplicacion}")
+print(f"Producto: {a} * {b} = {producto}")
 
 # División (float) devuelve el cociente como número decimal.
 division = a / b
-print(f"División: {a} / {b} = {division}")
+print(f"División (float): {a} / {b} = {division}")
 
-# (resto de la division) devuelve solo la parte entera del cociente.
+# División Entera (floor division) devuelve solo la parte entera del cociente.
 division_entera = a // b
-print(f"resto de la division: {a} // {b} = {resto de la division}")
+print(f"División Entera: {a} // {b} = {division_entera}")
 
 # Módulo (residuo) devuelve lo que sobra después de dividir.
 modulo = a % b
-print(f"Módulo: {a} % {b} = {modulo}")  
+print(f"Módulo: {a} % {b} = {modulo}")
 
 # Exponente (potencia)
 exponente = a ** b
@@ -71,3 +75,4 @@ if condición:
     # Código que se ejecuta si la condición es verdadera
 else:
     # Código que se ejecuta si la condición es falsa
+
